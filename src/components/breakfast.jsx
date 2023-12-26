@@ -1,7 +1,7 @@
-function Breakfast(props) {
+function Breakfast() {
     return(
         <>
-        <h1> Hello {props.name} </h1>
+        <h1> Hello Christian Jones. How are you? </h1>
         </>
-    )
+    );
 }

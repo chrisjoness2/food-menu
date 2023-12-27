@@ -1,7 +1,17 @@
-function Breakfast() {
+
+
+function Breakfast(props) {
     return(
-        <>
-        <h1> Hello Christian Jones. How are you? </h1>
-        </>
+        <div>
+            <div className='itemDiv'>
+                <h1 className='itemName'> {props.item} </h1>
+                <img className='image' src={props.img} alt=""/> 
+                <p className='itemDescription'> {props.itemDescription} </p>
+            </div>
+        </div>
+        
+
     );
 }
+
+export default Breakfast;

@@ -29,10 +29,7 @@ function BreakfastMenu(){
           item="French Toast Combo"
           img={FrenchToast}
           />
-          <p className='fanFavItem'> Egg Benedict: Our most ordered breakfast
-          <img className='middleImg' src={Benedict} alt=""/>
-          </p>
-          <br/>
+          
           <BreakfastProp 
           item="Omelette"
           img={Omelette}
@@ -48,7 +45,14 @@ function BreakfastMenu(){
           
     
     </div>
-        
+        <div className='fanFavDiv'>
+            <div className='fanFavTxt'>
+                <p> Egg Benedict: Our most ordered breakfast! </p>
+            </div>
+            <div className='fanFavImgDiv'>
+                <img className='fanFavImg' src={Benedict} alt=""/>
+            </div>
+        </div>
 </>
     )
 };

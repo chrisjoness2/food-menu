@@ -1,11 +1,16 @@
 .container {
   display: flex;
-  padding: 40px;
-  padding-top: 150px;
   flex-wrap: wrap;
   background-color: white;
 }
 
+hr{
+  width: 50%;
+}
+
+h6{
+  margin-top: 0;
+}
 .logo{
   position: absolute;
   top: 0;
@@ -15,25 +20,32 @@
   clip: rect(40px, 220px, 190px, 0);
 }
 
+.entireItemDiv{
+  position: relative;
+  left: 4.5%;
+  text-align: center;
+  border: 15px;
+}
+
 .image{
-  height: 300px;
-  width: 400px;
-  border-radius: 5px;
-  margin: 20px;
+  height: 400px;
+  width: 500px;
+  margin: 20px;  
+  padding-top: 50px;
 }
 
 .itemName{
-  text-align: center;
   font-family: 'Kalnia', serif;
   font-weight: 300;
   margin-top: 0;
 }
 
 .itemDescription{
-  width: 40%;
-  text-align: center;
-  margin-top: 0;
-  margin-right: 0;
+  position: relative;
+  left: 20%;
+  width: 60%;
+  margin: 0;
+
 }
 
 .MenuTitle{
@@ -43,9 +55,8 @@
   font-family: 'Kalnia', serif;
 }
 
-.breakfastTitle {
-  position: absolute;
-  top: 25%;
+.BreakfastLunchDinnerTitle {
+  position: relative;
   left: 45%;
   font-size: 1rem;
   font-family: 'Kalnia', serif;
@@ -57,6 +68,9 @@
   position: relative;
   left: 7%;
   padding-bottom: 100px;
+  margin-bottom: 100px;
+  top: 40px;
+
 
 }
 .fanFavImgDiv{
@@ -77,9 +91,10 @@
   font-size: 4.5rem;
   width: 50%;
   margin-right: 0;
+  margin-bottom: 0;
   text-align: center;
   position: relative;
-  top: 15%;
+  top: 2%;
   font-family: 'Calligraffitti', cursive;
   text-align: center;
   color: black;

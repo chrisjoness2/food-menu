@@ -1,65 +1,61 @@
-import FoodMenuTemplate from "./foodMenuTemplate";
-import BaconCheeseBurger from '../images/baconcheeseburger.jpeg'
-import BroccoliSoup from '../images/broccolisoup.webp'
-import ChickenBurger from '../images/chickenBurger.jpeg'
-import FishNChips from '../images/fishnchips.jpeg'
-import ChickenSalad from '../images/chickenSalad.jpeg'
-import ClubSandwich from '../images/clubsandwich.jpeg'
+import ChickenAlfredo from '../images/chickenAlfredo.webp';
+import ChickenPotPit from '../images/chickenPotPie.jpeg';
+import Spaghetti from '../images/spaghetti.jpeg';
+import SquashRisotto from '../images/squashRisotto.jpeg';
+import FoodMenuTemplate from './foodMenuTemplate';
 
 
 
 
 
 
-function LunchMenu (){
-    return (
+function DinnerMenu() {
+    return(
         <>
         <div className='BreakfastLunchDinnerTitle'>
-            <h1> Lunch </h1>
+            <h1> Dinner </h1>
         </div>
         <div className="container">
             <FoodMenuTemplate 
             item="Bacon Cheeseburger"
-            img={BaconCheeseBurger}
+            img={ChickenAlfredo}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
             <FoodMenuTemplate 
             item="Chicken Burger"
-            img={ChickenBurger}
+            img={Spaghetti}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
             <FoodMenuTemplate 
             item="Broccoli & Cheddar Soup"
-            img={BroccoliSoup}
+            img={ChickenPotPit}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
             <FoodMenuTemplate 
             item="Fish N Chips"
-            img={FishNChips}
+            img={SquashRisotto}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
             <FoodMenuTemplate 
             item="Chicken Caesar Salad"
-            img={ChickenSalad}
+            img={SquashRisotto}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
             <FoodMenuTemplate 
             item="Club Sandwich"
-            img={ClubSandwich}
+            img={SquashRisotto}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
             />
 
         </div>
-       
-
         </>
     )
 };
 
-export default LunchMenu;
+export default DinnerMenu;

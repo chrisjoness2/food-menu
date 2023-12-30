@@ -26,7 +26,14 @@
   text-align: center;
   font-family: 'Kalnia', serif;
   font-weight: 300;
+  margin-top: 0;
+}
 
+.itemDescription{
+  width: 40%;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 0;
 }
 
 .MenuTitle{
@@ -49,6 +56,7 @@
   width: 85%;
   position: relative;
   left: 7%;
+  padding-bottom: 100px;
 
 }
 .fanFavImgDiv{
@@ -56,7 +64,8 @@
   width: 600px;
   position: absolute;
   left: 50%;
-  top: 5%;
+  top: 0;
+
 }
 .fanFavImg{
   float: right;
@@ -74,4 +83,4 @@
   font-family: 'Calligraffitti', cursive;
   text-align: center;
   color: black;
-  text-shadow: 5px 5px 0px #FFB650;  }
+  text-shadow: 3px 3px 0px #EF9595;  }

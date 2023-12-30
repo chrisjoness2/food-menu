@@ -1,4 +1,5 @@
-import BreakfastProp from '../components/breakfastProps';
+import FoodMenuTemplate from './foodMenuTemplate';
+
 import Pancakes from '../images/breakfastplate.jpeg';
 import Waffles from '../images/waffles.jpeg';
 import Vegan from '../images/vegan.jpeg';
@@ -16,29 +17,29 @@ function BreakfastMenu(){
         <div className='breakfastTitle'>
             <h1> Breakfast </h1>
         </div>
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="Pancake Combo"
           img={Pancakes} alt=""
           
           />
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="Waffle Combo"
           img={Waffles}
           />
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="French Toast Combo"
           img={FrenchToast}
           />
           
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="Omelette"
           img={Omelette}
           />
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="Vegan Sandwich"
           img={Vegan}
           />
-          <BreakfastProp 
+          <FoodMenuTemplate 
           item="Breakfast Burrito"
           img={Burrito}
           />

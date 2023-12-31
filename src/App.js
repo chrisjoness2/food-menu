@@ -2,6 +2,7 @@ import './App.css';
 import Logo from './images/brandLogo.png';
 import BreakfastMenu from './components/breakfastMenu';
 import LunchMenu from './components/lunchMenu';
+import DinnerMenu from './components/dinnerMenu';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <h1 className='MenuTitle'>  Menu</h1>
     <BreakfastMenu />
     <LunchMenu />
+    <DinnerMenu />
 
     
       

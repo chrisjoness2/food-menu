@@ -23,36 +23,38 @@ function LunchMenu (){
             img={BaconCheeseBurger}
             description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
             and side of french fries"
+            price="9.99"
             />
             <FoodMenuTemplate 
             item="Chicken Burger"
             img={ChickenBurger}
-            description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-            and side of french fries"
+            description="Chicken burger with lettuce, mayo, pickles and side of french fries"
+            price="8.99"
             />
             <FoodMenuTemplate 
             item="Broccoli & Cheddar Soup"
             img={BroccoliSoup}
-            description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-            and side of french fries"
+            description="An caramelized onion and garlic-based and thickened with veggie stock, broccoli, and carrots"
+            price="5.99"
             />
             <FoodMenuTemplate 
             item="Fish N Chips"
             img={FishNChips}
-            description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-            and side of french fries"
+            description="Freshly caught breaded and baked fish served with a side of french fries"
+            price="7.99"
             />
             <FoodMenuTemplate 
             item="Chicken Caesar Salad"
             img={ChickenSalad}
-            description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-            and side of french fries"
+            description="Salad with tomato, croutons, and grilled chicken with your choice of warm or cold caesar
+            dressing"
+            price="6.99"
             />
             <FoodMenuTemplate 
             item="Club Sandwich"
             img={ClubSandwich}
-            description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-            and side of french fries"
+            description="A sandwich consisting of bread, sliced cooked chicken, fried bacon, lettuce, tomato, and mayonnaise"
+            price="8.99"
             />
 
         </div>

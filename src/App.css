@@ -1,15 +1,20 @@
 .container {
+  position: relative;
   display: flex;
+  width: 90%;
   flex-wrap: wrap;
   background-color: white;
+  left: 5%;
 }
 
 hr{
   width: 50%;
+  margin-bottom: 70px;
 }
 
 h6{
   margin-top: 0;
+  margin-bottom: 0;
 }
 .logo{
   position: absolute;
@@ -22,9 +27,9 @@ h6{
 
 .entireItemDiv{
   position: relative;
-  left: 4.5%;
   text-align: center;
   border: 15px;
+  width: 50%;
 }
 
 .image{
@@ -56,29 +61,28 @@ h6{
 }
 
 .BreakfastLunchDinnerTitle {
-  position: relative;
-  left: 45%;
   font-size: 1rem;
   font-family: 'Kalnia', serif;
+  text-align: center;
 }
 
 .fanFavDiv{
   height: 500px;
-  width: 85%;
+  width: 84.5%;
   position: relative;
   left: 7%;
   padding-bottom: 100px;
   margin-bottom: 100px;
   top: 40px;
-
-
+  background-color: #FFE382;
 }
+
 .fanFavImgDiv{
   height: 500px;
   width: 600px;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 8%;
 
 }
 .fanFavImg{
@@ -99,3 +103,9 @@ h6{
   text-align: center;
   color: black;
   text-shadow: 3px 3px 0px #EF9595;  }
+
+  .mostOrderedTxt{
+    color: #FF8080;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 0px black;
+  }

@@ -12,7 +12,7 @@ function BreakfastMenu(){
     return(
         <>
        <div className='BreakfastLunchDinnerTitle'>
-            <h1> Breakfast </h1> <h3> 8am-10:30am</h3>
+            <h1> Breakfast </h1> <h3> (All day breakfast)</h3>
         </div>
         
     <div className="container"> 
@@ -20,38 +20,41 @@ function BreakfastMenu(){
           <FoodMenuTemplate 
           item="Pancake Combo"
           img={Pancakes} alt=""
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="4 buttermilk pancakes with warm mapple syrup served with 2 eggs, bacon, and side of toast"
+          price="8.99"
           />
           <FoodMenuTemplate 
           item="Waffle Combo"
           img={Waffles}
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="3 buttermilk waffles with warm mapple syrup served with 2 eggs of your choice
+          and 2 sides of your choice between bacon, sausage and ham"
+          price="9.99"
           />
           <FoodMenuTemplate 
           item="French Toast Combo"
           img={FrenchToast}
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="3 french toast with warm mapple syrup served with 2 eggs of your choice
+          and 2 sides of your choice between bacon, sausage and ham"
+          price="8.99"
           />
           <FoodMenuTemplate 
           item="Omelette"
           img={Omelette}
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="Omelette with any vegetables and meats of your choice cooked with 3 eggs"
+          price="6.99"
           />
           <FoodMenuTemplate 
           item="Vegan Sandwich"
           img={Vegan}
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="Creamy spinach and a tangy white bean spread contrast beautifully with the juicy tomato slices"
+          price="7.99"
           />
           <FoodMenuTemplate 
           item="Breakfast Burrito"
           img={Burrito}
-          description="Our 100% beef bacon cheeseburger comes with lettuce, pickle, tomato, onion
-          and side of french fries"
+          description="Burrito served with eggs, avocado, red pepper, cheese and your choice between 
+          chicken and beef"
+          price="8.99"
           />
 
           
@@ -59,8 +62,10 @@ function BreakfastMenu(){
     </div>
         <div className='fanFavDiv'>
             <div className='fanFavTxt'>
-                <p> Egg Benedict </p> <h6> Toasted English muffin with Canadian bacon two poached eggs,
-                    and hollandaise sauce. This is our most ordered breakfast! </h6>
+                <p> Egg Benedict </p> 
+                <h6> Toasted English muffin with Canadian bacon two poached eggs,
+                    and hollandaise sauce  </h6>
+                <span className='mostOrderedTxt'> Our most ordered breakfast!</span>
             </div>
             <div className='fanFavImgDiv'>
                 <img className='fanFavImg' src={Benedict} alt=""/>

@@ -1,3 +1,65 @@
+html{
+  scroll-behavior:smooth;
+}
+
+
+
+.storeImg{
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  width: 100vw;
+  height: 700px;
+  top: -10px;
+  box-shadow: 3px 3px 3px black;
+
+}
+
+/*    NAVBAR     */
+ul{
+  background-color: white;
+  position: fixed;
+  display:inline-flex;
+  text-align: center;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1100;
+  margin-top: 0;
+  list-style-type: none;
+  font-size: 2rem;
+  box-shadow: 3px 3px 3px black;
+}
+
+a{  
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+}
+
+/*    JU23 Logo     */
+.logo{
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 270px;
+  width: 250px;
+  clip: rect(40px, 220px, 190px, 0);
+}
+
+.MenuTitle{
+  position: relative;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Kalnia', serif;
+  margin: 0;
+}
+
+
 .container {
   position: relative;
   display: flex;
@@ -5,6 +67,10 @@
   flex-wrap: wrap;
   background-color: white;
   left: 5%;
+}
+
+#Breakfast{
+  margin-top: 100px;
 }
 
 hr{
@@ -16,15 +82,8 @@ h6{
   margin-top: 0;
   margin-bottom: 0;
 }
-.logo{
-  position: absolute;
-  top: 0;
-  left: 5%;
-  height: 270px;
-  width: 250px;
-  clip: rect(40px, 220px, 190px, 0);
-}
 
+/*   IMG/TITLE/DESCRIPTION   */
 .entireItemDiv{
   position: relative;
   text-align: center;
@@ -53,12 +112,6 @@ h6{
 
 }
 
-.MenuTitle{
-  font-size: 3rem;
-  text-align: center;
-  padding-bottom: 70px;
-  font-family: 'Kalnia', serif;
-}
 
 .BreakfastLunchDinnerTitle {
   font-size: 1rem;
@@ -66,6 +119,7 @@ h6{
   text-align: center;
 }
 
+/*  Fan Favorite Item/Dish   */
 .fanFavDiv{
   height: 500px;
   width: 84.5%;

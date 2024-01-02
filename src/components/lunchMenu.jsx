@@ -15,7 +15,7 @@ function LunchMenu (){
     return (
         <>
         <div className='BreakfastLunchDinnerTitle'>
-            <h1> Lunch </h1>
+            <h1 id="Lunch"> Lunch </h1>
         </div>
         <div className="container">
             <FoodMenuTemplate 

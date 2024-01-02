@@ -2,7 +2,6 @@ import FoodMenuTemplate from './foodMenuTemplate';
 import ChickenAlfredo from '../images/chickenAlfredo.webp';
 import ChickenPotPit from '../images/chickenPotPie.jpeg';
 import Spaghetti from '../images/spaghetti.jpeg';
-import SquashRisotto from '../images/squashRisotto.jpeg';
 import GnocchiMeatball from '../images/GnocchiMeatball.jpeg';
 import Salmon from '../images/honeyglazedSalmon.jpeg';
 import VeganPasta from '../images/veganPasta.webp';
@@ -19,7 +18,7 @@ function DinnerMenu() {
     return(
         <>
         <div className='BreakfastLunchDinnerTitle'>
-            <h1> Dinner </h1>
+            <h1 id="Dinner"> Dinner </h1>
         </div>
         <div className="container">
             <FoodMenuTemplate 

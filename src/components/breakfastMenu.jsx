@@ -12,7 +12,7 @@ function BreakfastMenu(){
     return(
         <>
        <div className='BreakfastLunchDinnerTitle'>
-            <h1> Breakfast </h1> <h3> (All day breakfast)</h3>
+            <h1 id="Breakfast"> Breakfast </h1> <h3> (All day breakfast)</h3>
         </div>
         
     <div className="container"> 
@@ -62,7 +62,7 @@ function BreakfastMenu(){
     </div>
         <div className='fanFavDiv'>
             <div className='fanFavTxt'>
-                <p> Egg Benedict </p> 
+                <p> Eggs Benedict </p> 
                 <h6> Toasted English muffin with Canadian bacon two poached eggs,
                     and hollandaise sauce  </h6>
                 <span className='mostOrderedTxt'> Our most ordered breakfast!</span>

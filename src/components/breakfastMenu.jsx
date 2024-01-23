@@ -59,12 +59,13 @@ function BreakfastMenu(){
           
     
     </div>
-        <div className='fanFavDiv'>
-            <div className='fanFavTxt'>
+        <div className='fanFavDiv'>            
+        <span className='mostOrderedTxt'> Our most ordered breakfast:</span>
+
+            <div className='fanFavTxt'>                
                 <p> Eggs Benedict </p> 
                 <h6> Toasted English muffin with Canadian bacon two poached eggs,
-                    and hollandaise sauce  </h6>
-                <span className='mostOrderedTxt'> Our most ordered breakfast!</span>
+                    and hollandaise sauce $6.99 </h6>
             </div>
             <div className='fanFavImgDiv'>
                 <img className='fanFavImg' src={Benedict} alt=""/>

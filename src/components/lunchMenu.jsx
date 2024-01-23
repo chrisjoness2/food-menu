@@ -14,9 +14,7 @@ import ClubSandwich from '../images/clubsandwich.jpeg'
 function LunchMenu (){
     return (
         <>
-        <div className='BreakfastLunchDinnerTitle'>
-            <h1 id="Lunch"> Lunch </h1>
-        </div>
+        <h1 id="Lunch"> Lunch </h1>
         <div className="container">
             <FoodMenuTemplate 
             item="Bacon Cheeseburger"

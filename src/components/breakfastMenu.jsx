@@ -1,5 +1,4 @@
 import FoodMenuTemplate from './foodMenuTemplate';
-
 import Pancakes from '../images/breakfastplate.jpeg';
 import Waffles from '../images/waffles.jpeg';
 import Vegan from '../images/vegan.jpeg';
@@ -11,8 +10,8 @@ import Benedict from '../images/eggsbenedict.avif';
 function BreakfastMenu(){
     return(
         <>
-       <div className='BreakfastLunchDinnerTitle'>
-            <h1 id="Breakfast"> Breakfast </h1> <h3> (All day breakfast)</h3>
+       <div id="Breakfast">
+            <h1> Breakfast </h1> <h3> (All day breakfast)</h3>
         </div>
         
     <div className="container"> 

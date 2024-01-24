@@ -2,7 +2,6 @@ import EntireMenu from './components/entireMenu';
 import StoreImg from './images/storeImg.jpeg';
 
 
-
 function App() {
   return (
     <>

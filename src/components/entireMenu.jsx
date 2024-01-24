@@ -2,6 +2,7 @@ import BreakfastMenu from '../components/breakfastMenu';
 import LunchMenu from '../components/lunchMenu';
 import DinnerMenu from '../components/dinnerMenu';
 import Navbar from './navbar';
+import Footer from './footer';
 import '../App.css';
 
 
@@ -17,6 +18,7 @@ function EntireMenu() {
         <BreakfastMenu />
         <LunchMenu />
         <DinnerMenu />
+        <Footer />
         
         </>
     )
